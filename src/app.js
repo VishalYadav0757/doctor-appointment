@@ -10,7 +10,11 @@ const paymentRouter = require("./routers/payment-route");
 const app = express();
 
 var corsOptions = {
-  origin: ["https://localhost:3000", "http://localhost:3000"],
+  origin: [
+    "https://localhost:3000",
+    "http://localhost:3000",
+    "https://doctor-appointment-dfnn.onrender.com",
+  ],
 };
 
 // Middlewares \\
